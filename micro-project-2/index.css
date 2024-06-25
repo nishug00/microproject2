@@ -1,0 +1,327 @@
+.top-nav {
+    height: 127px;
+    background: #6F6AF7;
+}
+
+.header {
+    width: 215px;
+    height: 63px;
+    top: 27px;
+    left: 44px;
+    font-family: 'Delius Unicase';
+    font-size: 61.43px;
+    font-weight: 700;
+    line-height: 78.81px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.options {
+    width: 102px;
+    height: 33px;
+    top: 42px;
+    left: 412px;
+    font-family: 'DM Sans';
+    font-size: 36.43px;
+    font-weight: 400;
+    line-height: 47.43px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+/* .Search {
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+} */
+.Search{
+    border: none;
+height: 40px;
+width: 199px;
+text-align: left;
+border-radius: 25px;
+padding: 0px 0px 0px 15px;
+margin-top: 40px;
+}
+/* .Search.searchbtn{
+position: relative;
+left: -42px;
+background: none;
+border: none;
+font-size: 15px;
+color: rgb(93, 94, 95);
+cursor: pointer;
+} */
+input:focus{
+outline: none;
+}
+
+.Search input {
+    margin-right: 10px;
+}
+
+.vector {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 45px;
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+}
+
+.nav-item {
+    margin: 0 10px;
+    width: 102px;
+    height: 33px;
+    top: 42px;
+    left: 412px;
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #FFFFFF;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image1 img {
+    width: 350px;
+    height: 400px;
+    top: 30px;
+    left: 129px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.text1 input {
+    width: 750px;
+    height: 400px;
+    top: 30px;
+    left: -100px;
+    border-radius: 20px;
+    border: 6px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #E5D8FF;
+    border: 6px solid #FFFFFF;
+    box-shadow: 3px 5px 27px 0px #00000040 inset;
+    position: absolute;
+
+}
+
+.card.card1 {
+    width: 220px;
+    height: 80px;
+    top: 500px;
+    left: 70px;
+    border-radius: 11px;
+    position: absolute;
+    background-color: #929DFF;
+    align-items: center;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.card.card2 {
+    width: 220px;
+    height: 80px;
+    top: 500px;
+    left: 70px;
+    border-radius: 11px;
+    position: absolute;
+    background-color: #734CF2;
+    align-items: center;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.card.card3 {
+    width: 220px;
+    height: 80px;
+    top: 500px;
+    left: 70px;
+    border-radius: 11px;
+    position: absolute;
+    background-color: #D288FF;
+    align-items: center;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.card.card4 {
+    width: 220px;
+    height: 80px;
+    top: 500px;
+    left: 70px;
+    border-radius: 11px;
+    position: absolute;
+    background-color: #000000;
+    align-items: center;
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+
+.card.card5{
+    width: 1470px;
+    height: 530px;
+    top: 700px;
+    left: 101px;
+    border-radius: 21px;
+    background: #483EFF;
+    position: absolute;
+    bottom: 100px;
+}
+.card.card6{
+    width: 300px;
+    height: 80px;
+    top: 100px;
+    left: 50px;
+    border-radius: 22px;
+    opacity: 0px;
+    background: #BCE0F6;
+    box-shadow:  #00000063;
+    position: absolute;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+
+
+}
+.card.card7{
+    width: 300px;
+    height: 80px;
+    top: 200px;
+    left: 50px;
+    gap: 0px;
+    border-radius: 22px;
+    border: 5px;
+    opacity: 0px;
+    border: 5px solid #FFFFFF;
+    position: absolute;
+    background: #483EFF;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    margin-top: 20px;
+}
+.card.card8{
+    width: 300px;
+    height: 80px;
+    top: 300px;
+    left: 50px;
+    gap: 0px;
+    border-radius: 22px;
+    border: 5px;
+    opacity: 0px;
+    border: 5px solid #FFFFFF;
+    position: absolute;
+    background: #483EFF;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 62.54px;
+    letter-spacing: 0.04em;
+    margin-top: 35px;
+}
+
+.card.card9{
+    width: 850px;
+    height: 430px;
+    top: 50px;
+    left: 50px;
+    gap: 0px;
+    border-radius: 19px;
+    position: absolute;
+}
+
+.header2{
+    width: 370px;
+    height: 36px;
+    top: 50px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Inter';
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.99px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: #04285A;
+    position: absolute;
+}
+
+.container{
+    width: 400px;
+    height: 26px;
+    top: 100px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0.105em;
+    text-align: left;
+    color: #04285A;
+    position: absolute;   
+}
+
+.frame {
+    width: 88px;
+    height: 261px;
+    position: fixed;
+    top: 150px; 
+    right: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    z-index: 999;
+}
+
+.chat{
+    width: 120px;
+height: 120px;
+top: 730px;
+left: 1450px;
+position: fixed;
+z-index: 999;
+}
